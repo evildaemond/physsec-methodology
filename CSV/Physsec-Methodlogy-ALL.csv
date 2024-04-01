@@ -1,0 +1,244 @@
+Index A,Index B,Issue Name,Where the issue is found,Type of Issue,Evidence of Exploitation,Potential damage incured during testing,Security Level
+1,10,Tampering of cabling for monitoring system does not trigger alert,Alarms and Monitoring,Fault in BMS/SMS ,Covert,Minor Cosmetic Damage ,SL1
+1,41,Durress Button does not send alert,Alarms and Monitoring,Fault in BMS/SMS ,Not Applicable,No identifiable signs of damage,Varies
+1,42,Fire Indicator Panel event does not send alert,Alarms and Monitoring,Fault in BMS/SMS ,Not Applicable,No identifiable signs of damage,Varies
+1,1,Bypass of Magnetic Reed Switch due to,Alarms and Monitoring,Improper Installation,Surreptitious,No identifiable signs of damage,Varies
+1,2,Bypass of Magnetic Reed Switch due to - Poor Installation,Alarms and Monitoring,Improper Installation,Surreptitious,No identifiable signs of damage,SL2
+1,3,Bypass of Magnetic Reed Switch due to - Poorly configured sensors,Alarms and Monitoring,Improper Installation,Surreptitious,No identifiable signs of damage,SL2
+1,4,Bypass of Magnetic Reed Switch due to - Improperly installed sensors,Alarms and Monitoring,Improper Installation,Surreptitious,No identifiable signs of damage,SL2
+1,5,Bypass of Magnetic Reed Switch due to - Single-Magnet System,Alarms and Monitoring,Improper Installation,Surreptitious,No identifiable signs of damage,SL4
+1,11,Bypass of event trigger for,Alarms and Monitoring,Improper Installation,Varies,Varies,Varies
+1,12,Bypass of event trigger for - Security Management System enclosure,Alarms and Monitoring,Improper Installation,Varies,Varies,SL3
+1,13,Bypass of event trigger for - Building Management System enclosure,Alarms and Monitoring,Improper Installation,Varies,Varies,SL3
+1,14,Bypass of event trigger for - Elevator Management System enclosure,Alarms and Monitoring,Improper Installation,Varies,Varies,SL3
+1,15,Bypass of event trigger for - Intrusion Detection System enclosure,Alarms and Monitoring,Improper Installation,Varies,Varies,SL3
+1,16,Bypass of event trigger for - Fire System enclosure,Alarms and Monitoring,Improper Installation,Varies,Varies,SL3
+1,17,Bypass of event trigger for - Monitored Paddle,Alarms and Monitoring,Improper Installation,Varies,Varies,SL3
+1,18,Bypass of event trigger for - Monitored Latch,Alarms and Monitoring,Improper Installation,Varies,Varies,SL3
+2,22,Data backups not located in a secure location,Backup and Redundency,Improper Installation,Not Applicable,Not Applicable,Not Applicable
+3,6,Fire Indicator does not connected to Security Management System,BMS/SMS Configuration and Implementation,Improper Installation,Overt,Not Applicable,Not Applicable
+4,3,Sensitive Equipment or Enclosure contains bypass for access control mechaism,Building or Facility Design and Implementation,Improper Installation,Surreptitious,Not Applicable,Varies
+4,4,PIR/Motion based REX sensor can be triggered from externally accessable location,Building or Facility Design and Implementation,Improper Installation,Covert,Not Applicable,SL1
+4,5,Capacitive Touch based REX button installed near externally accessable location (High Power output attack - See OzLockCon),Building or Facility Design and Implementation,Improper Installation,Surreptitious,No identifiable signs of damage,SL4
+4,6,Physical REX button installed in external/insecure side of door,Building or Facility Design and Implementation,Improper Installation,Covert,Not Applicable,SL1
+4,7,Physical REX button accessable from external/insecure side of door,Building or Facility Design and Implementation,Improper Installation,Covert,Not Applicable,SL2
+4,8,Poorly barriered drop ceiling/floor allows for bypass of access control to Sensitive Area,Building or Facility Design and Implementation,Improper Installation,Surreptitious,Minor Cosmetic Damage ,SL3
+4,9,Sensitive Area ingress/egress bypasses access controls,Building or Facility Design and Implementation,Improper Installation,Varies,Not Applicable,SL1
+4,10,Sensitive Area lacking appropriate access controls,Building or Facility Design and Implementation,Improper Installation,Varies,Not Applicable,SL1
+4,12,Cable Transfer device not used on door,Building or Facility Design and Implementation,Improper Installation,Varies,Not Applicable,Not Applicable
+4,13,Data Wiring running via unsecured area,Building or Facility Design and Implementation,Improper Installation,Surreptitious,No identifiable signs of damage,SL2
+4,14,Data Wiring not properly shielded from physical access,Building or Facility Design and Implementation,Improper Installation,Surreptitious,No identifiable signs of damage,SL2
+4,15,Sensitive equipment or enclosure not located in appropriate secure location,Building or Facility Design and Implementation,Improper Installation,Surreptitious,Not Applicable,SL2
+4,16,Power wiring for sensitive equipment not properly shielded from physical access,Building or Facility Design and Implementation,Improper Installation,Surreptitious,Not Applicable,SL2
+4,17,Emergency Egress Stairs allow for internal movement through building,Building or Facility Design and Implementation,Improper Installation,Covert,Not Applicable,SL1
+4,19,Internal Movement Stairs lack access control,Building or Facility Design and Implementation,Improper Installation,Covert,Not Applicable,SL1
+4,23,Sensitive Area Door not configured with Access Control Mechanism,Building or Facility Design and Implementation,Improper Installation,Covert,Not Applicable,SL1
+4,36,Alarm Panel not located within secure area or highly secure zones,Building or Facility Design and Implementation,Improper Installation,Varies,Not Applicable,SL2
+4,37,Audible or visual alarm for sensitive door located in external/insecure side of door,Building or Facility Design and Implementation,Improper Installation,Varies,Not Applicable,SL2
+4,38,Magnetic Door Lock does not fully engage during door closing,Building or Facility Design and Implementation,Improper Installation,Covert,Not Applicable,SL1
+5,1,CCTV System does not monitor,CCTV Monitoring/Recording,Improper Installation,Covert,Not Applicable,SL1
+5,2,CCTV System does not monitor - Ingress/egress of primary entry points,CCTV Monitoring/Recording,Improper Installation,Covert,Not Applicable,SL1
+5,3,CCTV System does not monitor - Ingress/egress of fire doors,CCTV Monitoring/Recording,Improper Installation,Covert,Not Applicable,SL1
+5,4,CCTV System does not monitor - Ingress/egress of sensitive areas,CCTV Monitoring/Recording,Improper Installation,Covert,Not Applicable,SL1
+5,5,CCTV System does not monitor - Sensitive Equipment,CCTV Monitoring/Recording,Improper Installation,Covert,Not Applicable,SL1
+7,1,Door handle suseptable to Under Door Attack,Doors,Improper Installation,Covert,No identifiable signs of damage,SL3
+7,2,Door handle suseptable to Over door attack,Doors,Improper Installation,Covert,No identifiable signs of damage,SL3
+7,3,Thumb Turn operable from external area due to poor physical barrier or fitment (Thumb Turner Tool/J-Tool),Doors,Improper Installation,Covert,No identifiable signs of damage,SL3
+7,4,Crash Bar operable from external area due to poor physical barrier or fitment,Doors,Improper Installation,Covert,No identifiable signs of damage,SL3
+7,5,Bolts operable from external area due to poor physical barrier or fitment,Doors,Improper Installation,Covert,No identifiable signs of damage,SL2
+7,6,Dead latch does not engage due to poorly installed latch plate,Doors,Improper Installation,Surreptitious,Minor Cosmetic Damage ,SL1
+7,7,Deadlatch Bypassed due to poor door fitment (Expanding door gap with air wedge),Doors,Improper Installation,Surreptitious,Minor Cosmetic Damage ,SL2
+7,9,Internal Door missing captive pins or mechanisms to prevent removal of door,Doors,Improper Installation,Covert,Minor Cosmetic Damage ,SL2
+7,10,Material Transparency or Weakness in material in use allows for access to backside of door (Example - Wire Fence material),Doors,Improper Installation,Surreptitious,No identifiable signs of damage,SL1
+9,1,Key box in use at insecure location,Locks,Improper Installation,Varies,Not Applicable,Varies
+9,2,Key box in use at insecure location - External to building Location,Locks,Improper Installation,Varies,Not Applicable,Varies
+9,3,Key box in use at insecure location - Publicly accessable location,Locks,Improper Installation,Varies,Not Applicable,Varies
+9,4,Key box in use can be removed from fixed location,Locks,Improper Installation,Overt,Varies,SL1
+10,10,RFID Reader downgrade attack via in-field programming,RFID Access Control Systems,Improper Installation,Covert,Not Applicable,SL4
+10,15,RFID Access Controller allows for unauthenticated reader adoption,RFID Access Control Systems,Improper Installation,Surreptitious,Not Applicable,SL4
+10,17,RFID Access Controller setup with Auto-Enrollment for OSDP,RFID Access Control Systems,Improper Installation,Surreptitious,Not Applicable,SL4
+10,18,RFID Access Controller does not prevent downgrade attacks of secure to insecure communication protocol ,RFID Access Control Systems,Improper Installation,Covert,Not Applicable,SL4
+1,6,Magnetic Reed Switch does not trigger alert for Door Open/Door Close/Door open too long/Forceful Entry,Alarms and Monitoring,Logging of Security Events,Surreptitious,No identifiable signs of damage,SL1
+1,8,End of Line Resistor failure does not trigger alert or alarm,Alarms and Monitoring,Logging of Security Events,Covert,Minor Cosmetic Damage ,SL3
+1,19,Fire Mode on elevator does not trigger alert or alarm,Alarms and Monitoring,Logging of Security Events,Surreptitious,No identifiable signs of damage,SL2
+1,20,Independent or Priority Mode on elevator does not trigger alert or alarm,Alarms and Monitoring,Logging of Security Events,Surreptitious,No identifiable signs of damage,SL2
+1,21,Break Glass Unit (Fire Button) does not trigger alert or alarm,Alarms and Monitoring,Logging of Security Events,Covert,Varies,Not Applicable
+1,22,Key Override events do not trigger monitoring or alarm events (Key Bypass for access control system),Alarms and Monitoring,Logging of Security Events,Surreptitious,Varies,SL2
+1,24,Rapid access system does not trigger alert or alarm (Fire Box lacks alarm or monitoring trigger),Alarms and Monitoring,Logging of Security Events,Surreptitious,No identifiable signs of damage,SL2
+1,25,Sensitive equipment or enclosure lacks tamper switch or monitoring for tamper switch,Alarms and Monitoring,Logging of Security Events,Surreptitious,Varies,SL3
+1,26,Emergency Egress (Fire Exit) door lacking monitoring or alarm events,Alarms and Monitoring,Logging of Security Events,Surreptitious,Varies,SL2
+1,27,Internal Movement Stairs lacking monitoring or alarm events,Alarms and Monitoring,Logging of Security Events,Surreptitious,Varies,SL1
+1,29,Forced Entry Event not logged for,Alarms and Monitoring,Logging of Security Events,Varies,Varies,SL2
+1,30,Forced Entry Event not logged for - Sensitive equipment or enclosure,Alarms and Monitoring,Logging of Security Events,Varies,Varies,SL2
+1,31,Forced Entry Event not logged for - External doors,Alarms and Monitoring,Logging of Security Events,Varies,Varies,SL2
+1,32,Forced Entry Event not logged for - Internal doors,Alarms and Monitoring,Logging of Security Events,Varies,Varies,SL2
+1,33,"Latch/Door Status do not sync event not logged or triggered (If a latch is opened, and the magnetic reed sensor is still closed, it should trigger an alert)",Alarms and Monitoring,Logging of Security Events,Varies,Varies,SL3
+1,34,Power Off/On Event not triggered for,Alarms and Monitoring,Logging of Security Events,Varies,Varies,Varies
+1,35,Power Off/On Event not triggered for - Uninteruptable Power Supply (UPS) fault,Alarms and Monitoring,Logging of Security Events,Varies,Varies,Varies
+1,36,Power Off/On Event not triggered for - Fire Indicator Panel,Alarms and Monitoring,Logging of Security Events,Varies,Varies,Varies
+1,37,Power Off/On Event not triggered for - Intrusion Detection System,Alarms and Monitoring,Logging of Security Events,Varies,Varies,Varies
+1,38,Power Off/On Event not triggered for - Security Management System,Alarms and Monitoring,Logging of Security Events,Varies,Varies,Varies
+1,39,Power Off/On Event not triggered for - Door Controller,Alarms and Monitoring,Logging of Security Events,Varies,Varies,Varies
+1,40,Power Off/On Event not triggered for - Door Access Controls,Alarms and Monitoring,Logging of Security Events,Varies,Varies,Varies
+1,50,Electronic Access Control System does not trigger event on multiple failed card requests,Alarms and Monitoring,Logging of Security Events,Varies,No identifiable signs of damage,SL3
+10,12,RFID Reader not setup with Tamper Monitoring/does not trigger alert or alarm,RFID Access Control Systems,Logging of Security Events,Covert,Not Applicable,SL4
+1,49,Alarm System can be disabled from Building Management System or Security Management System,Alarms and Monitoring,Logic Faults,Varies,No identifiable signs of damage,Varies
+2,21,Data backups not verified reguarly,Backup and Redundency,Logic Faults,Not Applicable,Not Applicable,Not Applicable
+3,1,Perimiter Door not locking during out of hours period,BMS/SMS Configuration and Implementation,Logic Faults,Surreptitious,No identifiable signs of damage,SL1
+3,2,Electronic Access Control does not lock out users from accessing during out of hours period,BMS/SMS Configuration and Implementation,Logic Faults,Surreptitious,Not Applicable,SL1
+3,3,Request to Exit via PIR/Microwave Sensor not disabled during Out of Hours period,BMS/SMS Configuration and Implementation,Logic Faults,Surreptitious,No identifiable signs of damage,SL1
+3,10,Electronic Access Control System does not prevent access to sensitive area via elevator,BMS/SMS Configuration and Implementation,Logic Faults,Surreptitious,No identifiable signs of damage,SL1
+3,5,Fire Indicator Panel not connected to automatic doors directly,BMS/SMS Configuration and Implementation,Occupational Health and Saftey,Overt,Not Applicable,Not Applicable
+3,7,Break Glass Unit (Fire Button) does not trigger perimiter door exit,BMS/SMS Configuration and Implementation,Occupational Health and Saftey,Overt,Not Applicable,Not Applicable
+3,8,Fail Secure events do not allow for external movement from internal access,BMS/SMS Configuration and Implementation,Occupational Health and Saftey,Surreptitious,Not Applicable,Not Applicable
+3,9,Emergency Egress Doors (Fire Doors) not configured to shunt during fire event,BMS/SMS Configuration and Implementation,Occupational Health and Saftey,Overt,Not Applicable,Not Applicable
+1,7,End of Line Resistor missing from Access Control Monitoring,Alarms and Monitoring,Out of Specification,Covert,Minor Cosmetic Damage ,SL3
+1,23,Request to Exit (REX) system lacking monitoring,Alarms and Monitoring,Out of Specification,Surreptitious,No identifiable signs of damage,SL1
+1,28,Sensitive Area does not use monitoring for Door Events,Alarms and Monitoring,Out of Specification,Surreptitious,No identifiable signs of damage,SL1
+1,43,Motion Detectors lack proper anti-masking monitoring or triggering,Alarms and Monitoring,Out of Specification,Covert,No identifiable signs of damage,SL3
+1,44,Intrusion Detection System not implemented on Security Management System,Alarms and Monitoring,Out of Specification,Varies,No identifiable signs of damage,SL3
+1,45,Electronic Access Control System does not have/not conifgured with audit trail enabled,Alarms and Monitoring,Out of Specification,Surreptitious,No identifiable signs of damage,SL1
+1,46,Electronic Access Control System does not have/not conifgured with sectionalised areas enabled,Alarms and Monitoring,Out of Specification,Surreptitious,No identifiable signs of damage,SL1
+1,47,Electronic Access Control System does not have/not conifgured with Anti-Pass Back,Alarms and Monitoring,Out of Specification,Surreptitious,No identifiable signs of damage,SL2
+2,1,Uninteruptable Power Supply (UPS) missing from,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,2,Uninteruptable Power Supply (UPS) missing from - Building Management System,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,3,Uninteruptable Power Supply (UPS) missing from - Fire Indicator Panel,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,4,Uninteruptable Power Supply (UPS) missing from - Security Management System,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,5,Uninteruptable Power Supply (UPS) missing from - Sensitive Equipment,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,6,Uninteruptable Power Supply (UPS) missing from - Access Control Equipment,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,7,Data backups not maintained for,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,8,Data backups not maintained for - Building Management System,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,9,Data backups not maintained for - Security Management System,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,10,Data backups not maintained for - Access Control Equipment,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,11,Data backups not maintained for - Key Control/Ownership/Management,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,12,Data backups not maintained for - CCTV Configuration,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,13,Data backups not maintained for - CCTV Video,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,14,Data backups not maintained for adquiate period of time on,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,15,Data backups not maintained for adquiate period of time on - Building Management System,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,16,Data backups not maintained for adquiate period of time on - Security Management System,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,17,Data backups not maintained for adquiate period of time on - Access Control Equipment,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,18,Data backups not maintained for adquiate period of time on - Key Control/Ownership/Management,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,19,Data backups not maintained for adquiate period of time on - CCTV Configuration,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+2,20,Data backups not maintained for adquiate period of time on - CCTV Video,Backup and Redundency,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+3,11,Door Open period for Electronic Access Control System longer than required,BMS/SMS Configuration and Implementation,Out of Specification,Covert,Not Applicable,SL2
+3,12,Electronic Access Control does not lockout denied users,BMS/SMS Configuration and Implementation,Out of Specification,,Not Applicable,SL1
+4,2,Sensitive Equipment or Enclosure does not contain physical access control mechaism,Building or Facility Design and Implementation,Out of Specification,Surreptitious,Not Applicable,Varies
+4,11,Cable Transfer device in use not rated for Sensitive Area,Building or Facility Design and Implementation,Out of Specification,Varies,Not Applicable,SL2
+4,18,Emergency Egress Stairs access control can be bypassed,Building or Facility Design and Implementation,Out of Specification,Covert,Not Applicable,SL1
+4,20,Internal Movement Stairs access control can be bypassed,Building or Facility Design and Implementation,Out of Specification,Covert,Not Applicable,Varies
+4,21,Observation for Sensitive Material from Unauthorised location,Building or Facility Design and Implementation,Out of Specification,Covert,Not Applicable,SL1
+4,22,Sensitive Area Door does not use automatic door closer,Building or Facility Design and Implementation,Out of Specification,Covert,Not Applicable,Varies
+4,24,Sensitive Area lacks access control for egress (Uses Door Exit button or backside lever exit instead of Card Reader or Lock),Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL1
+4,25,Door Hardware installed not matching security requirements,Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,Varies
+4,26,Door Hardware installed not matching security requirements - Lack of Full Plate for Handle,Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL2
+4,27,"Door Hardware installed not matching security requirements - Hinges do not match requirements (Count, size, removable externally, captive pins use screw threads)",Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,Varies
+4,28,Door Hardware installed not matching security requirements - Door thickness under recommended size,Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL2
+4,29,Door Hardware installed not matching security requirements - Door Material not matching requirements (Particleboard or hollow core doors for example),Building or Facility Design and Implementation,Out of Specification,Not Applicable,Varies,SL2
+4,30,Door Hardware installed not matching security requirements - Out of Hours deadbolt missing from door,Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL2
+4,31,Door Hardware installed not matching security requirements - Latch Blocker missing from door,Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL2
+4,32,Door Hardware installed not matching security requirements - Electro-Magnetic Lock positioned incorrectly,Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL3
+4,33,Door Hardware installed not matching security requirements - Door frame not matching to specifications (Spreader attack),Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL3
+4,34,Door Hardware installed not matching security requirements - Door gap between still and leaf exceeds 10mm (Fire Standard Requirement),Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL2
+4,35,Door Hardware installed not matching security requirements - Door gap between frame and leaf exceeds 3mm (Fire Standard Requirements),Building or Facility Design and Implementation,Out of Specification,Not Applicable,Not Applicable,SL2
+5,6,CCTV System is not monitored,CCTV Monitoring/Recording,Out of Specification,Covert,Not Applicable,SL1
+5,7,CCTV System streams but does not record video,CCTV Monitoring/Recording,Out of Specification,Covert,Not Applicable,Varies
+5,8,CCTV System does not maintain recordings for an adquiate period of time,CCTV Monitoring/Recording,Out of Specification,Not Applicable,Not Applicable,Varies
+5,9,CCTV System does not match local standards required for monitoring,CCTV Monitoring/Recording,Out of Specification,Not Applicable,Not Applicable,Varies
+5,10,CCTV System access improperly segriagted,CCTV Monitoring/Recording,Out of Specification,Not Applicable,Not Applicable,SL2
+6,1,Lack of Documentation for,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,2,Lack of Documentation for - Security Management System,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,3,Lack of Documentation for - Equipment in use,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,4,Lack of Documentation for - Equipment location,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,5,Lack of Documentation for - CCTV Camera Locations,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,6,Lack of Documentation for - Key Control/Ownership/Management,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,7,Incorrect or misrepresented documentation for,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,8,Incorrect or misrepresented documentation for - Security Management System,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,9,Incorrect or misrepresented documentation for - Equipment in use,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,10,Incorrect or misrepresented documentation for - Equipment location,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,11,Incorrect or misrepresented documentation for - CCTV Camera Locations,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+6,12,Incorrect or misrepresented documentation for - Key Control/Ownership/Management,Documentation,Out of Specification,Not Applicable,Not Applicable,Not Applicable
+7,8,Bypass of Latch Blocker to door latch,Doors,Out of Specification,Surreptitious,Minor Cosmetic Damage ,SL1
+9,5,Key box in use suseptable to decoding attacks,Locks,Out of Specification,Covert,No identifiable signs of damage,SL3
+9,6,Key box in use suseptable to hinge removal attacks,Locks,Out of Specification,Covert,Minor Operational Damage,SL3
+9,7,Key box in use suseptable to RFID cloning attack (Key box contains RFID Tag),Locks,Out of Specification,Surreptitious,Not Applicable,SL3
+9,13,Lock in use suseptable to decoding attack,Locks,Out of Specification,Varies,Varies,SL2
+9,14,Lock in use suseptable to decoding attack - Key Box,Locks,Out of Specification,Varies,Varies,SL2
+9,15,Lock in use suseptable to decoding attack - Combonation Lock,Locks,Out of Specification,Varies,Varies,Varies
+9,16,Lock in use suseptable to decoding attack - Digital Combonation Lock,Locks,Out of Specification,Varies,Varies,SL2
+9,21,Digital Combonation lock or PIN System in use is non-unique per use,Locks,Out of Specification,Surreptitious,Not Applicable,SL3
+9,22,Rapid access system in use suseptable to bypass attack (Knox Boxes/Fire key boxes),Locks,Out of Specification,Surreptitious,Varies,SL2
+9,23,Rapid access system in use suseptable to picking attack (Knox Boxes/Fire key boxes),Locks,Out of Specification,Covert,Minor Cosmetic Damage ,SL3
+9,24,"Externally Removable Lock used for Access Control to perimiter entry (Padlock and Chain, other methods where the lock can be removed from the system from external level access)",Locks,Out of Specification,Overt,Not Applicable,Varies
+9,25,"Externally Removable Lock used for Access Control to senistive area (Padlock and Chain, other methods where the lock can be removed from the system from external level access)",Locks,Out of Specification,Overt,Not Applicable,Varies
+10,1,RFID Access Cards uses default or common encryption key,RFID Access Control Systems,Out of Specification,Surreptitious,Not Applicable,SL1
+10,2,RFID Access Cards does not implement encryption,RFID Access Control Systems,Out of Specification,Surreptitious,Not Applicable,SL1
+10,4,RFID Access Cards uses Sequential cards for authentication,RFID Access Control Systems,Out of Specification,Surreptitious,Not Applicable,SL3
+10,9,RFID Reader does not use security screws for attachment to wall,RFID Access Control Systems,Out of Specification,Surreptitious,Not Applicable,SL1
+10,14,RFID Access Controller has extended sync period for local cache (RFID Cards stay online after cancelled for longer than 30 minutes),RFID Access Control Systems,Out of Specification,Covert,Not Applicable,Varies
+11,1,Equipment or data housing device stored in an unsafe manner,Security Training and Hygene,Out of Specification,Varies,Not Applicable,SL3
+11,2,Equipment or data housing device incorrectly managed in non-secure container,Security Training and Hygene,Out of Specification,Varies,Not Applicable,SL3
+11,3,Equipment or data housing device incorrectly disposed in garbage/e-waste,Security Training and Hygene,Out of Specification,Varies,Not Applicable,SL2
+11,4,Sensitive Documents or Data disposed of in general waste,Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL2
+11,5,Sensitive Documents or Data not shreaded or destroyed during disposal process,Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL2
+11,6,Sensitive Documents or Data not forensically disposed of during disposal process,Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL4
+11,7,Document Destruction bin does not contain proper security for sensitive data,Security Training and Hygene,Out of Specification,Covert,Not Applicable,Varies
+11,8,Card making equipment located in non-secure area,Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL2
+11,9,Card spares/blanks/returned located in non-secure area,Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL3
+11,10,Card spares/blanks/returned not disposed of securely,Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL3
+11,11,Access Control bypassed due to lock mechanism not being engaged after use ,Security Training and Hygene,Out of Specification,Surreptitious,Not Applicable,SL1
+11,12,Non-Security Personnel do not raise security alert for suspisous members of staff,Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL1
+11,13,Keys or other access control methods left in unsafe location or manner,Security Training and Hygene,Out of Specification,Varies,Not Applicable,SL1
+11,14,Sensitive Information or data displayed or stored or left in unsafe manner (Post it with a password),Security Training and Hygene,Out of Specification,Covert,Not Applicable,SL1
+11,15,Security Personnel did not verify door as secure during door check,Security Training and Hygene,Out of Specification,Not Applicable,Not Applicable,Varies
+11,16,Non-Security Personnel do not raise security alert for lost property,Security Training and Hygene,Out of Specification,Not Applicable,Not Applicable,Varies
+12,1,Lack of attendance by Security Personnel during a security event,Surveillance Detection and Response,Out of Specification,Not Applicable,Not Applicable,Varies
+12,2,Out of Recommended Time response by Security Personnel during a security event,Surveillance Detection and Response,Out of Specification,Not Applicable,Not Applicable,Varies
+12,3,Lack of prioritisation for security events,Surveillance Detection and Response,Out of Specification,Not Applicable,Not Applicable,Varies
+12,4,Lack of documentation by Security Personnel during security event,Surveillance Detection and Response,Out of Specification,Varies,Not Applicable,Varies
+12,5,Security Personnel do not verify credentials of personel during security event,Surveillance Detection and Response,Out of Specification,Overt,Not Applicable,Varies
+12,6,Security Personnel do not verify 3rd party sponsorships during security event,Surveillance Detection and Response,Out of Specification,Overt,Not Applicable,Varies
+12,7,Inadiquate Staffing of Security team,Surveillance Detection and Response,Out of Specification,Not Applicable,Not Applicable,Varies
+12,8,Security Alerts are not monitored by Security Personnel,Surveillance Detection and Response,Out of Specification,Covert,Not Applicable,Varies
+12,9,Security Personnel did not verify door is secured after security event,Surveillance Detection and Response,Out of Specification,Covert,Not Applicable,Varies
+12,10,Playbooks not followed during security event,Surveillance Detection and Response,Out of Specification,Not Applicable,Not Applicable,Varies
+12,11,Playbooks for security event missing,Surveillance Detection and Response,Out of Specification,Not Applicable,Not Applicable,Varies
+1,9,Lack of anti-tamper trigger for Magnetic Reed Switch,Alarms and Monitoring,Security Enhancement,Covert,No identifiable signs of damage,SL3
+1,48,Electronic Access Control System does not have/not conifgured with dual authentication system on sensitive area,Alarms and Monitoring,Security Enhancement,Surreptitious,No identifiable signs of damage,SL3
+4,1,Tailgaiting possible due to lack of mantrap or turnstyle system,Building or Facility Design and Implementation,Security Enhancement,Covert,Not Applicable,SL2
+3,4,Secure Area Door fails in Open and not Secure,BMS/SMS Configuration and Implementation,Security Enhancements,Surreptitious,Not Applicable,Varies
+4,39,Tailgaiting possible due to lack of mantrap or turnstyle system,Building or Facility Design and Implementation,Security Enhancements,Surreptitious,Not Applicable,Varies
+8,1,Common key used in access control,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,2,Common key used in access control - Elevator (Fire/Service),Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,3,Common key used in access control - Door,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,4,Common key used in access control - Rapid access system,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,5,Common key used in access control - Server Rack,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,6,Common key used in access control - Cabinet,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,7,Common key used in access control - Sensitive Area,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,8,Key system clonable via Teleduplication,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL3
+8,9,Key system clonable via Casting attack,Keys and Key Systems,Security Enhancements,Surreptitious,No identifiable signs of damage,SL3
+8,10,Key system clonable due to lack of restricted keyway,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+8,11,Key system allows for privlege escalation via master key attack on core removal,Keys and Key Systems,Security Enhancements,Surreptitious,Varies,SL3
+8,12,Key system lacks proper key management,Keys and Key Systems,Security Enhancements,Surreptitious,Not Applicable,SL1
+8,13,Key system does not match security requirements,Keys and Key Systems,Security Enhancements,Varies,Not Applicable,Varies
+8,14,Key system does not match security requirement - 5 or 6 pin and tumbler lock,Keys and Key Systems,Security Enhancements,Varies,Not Applicable,SL2
+8,15,Key system does not match security requirement - Wafer lock,Keys and Key Systems,Security Enhancements,Varies,Not Applicable,SL2
+8,16,Key system does not match security requirement - Non-restricted keyway,Keys and Key Systems,Security Enhancements,Varies,Not Applicable,SL2
+8,17,Key system does not match security requirement - No Patent Protection on Keys,Keys and Key Systems,Security Enhancements,Varies,Not Applicable,SL2
+8,18,Key system does not match security requirement - Lock picked publicly in under x period of time,Keys and Key Systems,Security Enhancements,Varies,Not Applicable,Varies
+9,8,Pin Tumbler Lock in use weak to overlifting attack,Locks,Security Enhancements,Covert,No identifiable signs of damage,SL3
+9,9,Pin Tumbler Lock in use weak to Impressioning attack,Locks,Security Enhancements,Surreptitious,No identifiable signs of damage,SL3
+9,10,Pin Tumbler Lock in use weak to jiggling attack,Locks,Security Enhancements,Covert,No identifiable signs of damage,SL2
+9,11,Wafer lock in use weak to jiggling attack,Locks,Security Enhancements,Covert,No identifiable signs of damage,SL2
+9,12,Padlock in use shimmable due to spring based locking pawl,Locks,Security Enhancements,Covert,Varies,SL2
+9,17,Digital Combonation lock in use suseptable to thermal impressioning (FLIR),Locks,Security Enhancements,Surreptitious,Not Applicable,SL4
+9,18,Digital Combonation lock in use suseptable to impressioning (Dust/Powder Cover),Locks,Security Enhancements,Covert,No identifiable signs of damage,SL3
+9,19,Digital Combonation lock in use displays valid code sequence on buttons (Worn buttons show valid sequence for entry),Locks,Security Enhancements,Surreptitious,Not Applicable,SL1
+9,20,Digital Combonation lock in use displays valid code nearby (Stickered or written code nearby),Locks,Security Enhancements,Surreptitious,Not Applicable,SL1
+10,3,RFID Access Cards are able to be duplicated,RFID Access Control Systems,Security Enhancements,Surreptitious,Not Applicable,Varies
+10,5,RFID Access Card does not implement recommended hardening on card,RFID Access Control Systems,Security Enhancements,Surreptitious,Not Applicable,SL2
+10,6,RFID Access Card does not use virtual contact interface,RFID Access Control Systems,Security Enhancements,Surreptitious,Not Applicable,SL4
+10,7,RFID Reader uses insecure communication protocol,RFID Access Control Systems,Security Enhancements,Covert,Not Applicable,SL3
+10,8,RFID Reader not actively synced between Security Management System,RFID Access Control Systems,Security Enhancements,Surreptitious,Not Applicable,SL1
+10,11,RFID Reader does not detect Magic Cards in use,RFID Access Control Systems,Security Enhancements,Surreptitious,Not Applicable,Varies
+10,13,RFID Access Controller does not implement Message Replay Protections,RFID Access Control Systems,Security Enhancements,Surreptitious,Not Applicable,SL3
+10,16,RFID Access Controller does not prevent Bruteforcing of UIDs (CHUID Exploits),RFID Access Control Systems,Security Enhancements,Covert,Not Applicable,SL3
